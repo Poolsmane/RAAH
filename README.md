@@ -5,7 +5,7 @@ It is a dedicated system to provide safety of pedestrian from potholes,manholes,
 
 We have made software as well as hardware approaches.
 
-Hardware:
+# Hardware:
 
 The Arduino Uno is a popular microcontroller board that can be used for a wide variety of projects, including detecting and measuring the distance of potholes from a moving vehicle. One way to accomplish this is by using an ultrasonic sensor, which sends out sound waves and measures the time it takes for the waves to bounce back. By using this information, the distance between the sensor and the object can be calculated.
 
@@ -16,7 +16,7 @@ The data collected by the sensor can be transmitted to an app via Bluetooth or W
 ![image](https://user-images.githubusercontent.com/92935580/233885880-aad508b9-2b6f-4d74-a1f2-9d1c011210c2.png)
 
 
-Software:
+# Software:
 
 This app, developed using Kotlin and Java, includes a login/logout page and uses sensor data to mark locations on a map within the app. The data is also saved into a database for real-time user access and future use by the Ministry of Road Transport and Highways (MoRTH). The database is visible to the government, allowing for improved road safety and more efficient road maintenance.
 
