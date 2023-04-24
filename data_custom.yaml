@@ -1,0 +1,6 @@
+train: D:\yolov8_custom\train
+val: D:\yolov8_custom\val
+
+nc: 1
+
+names: ["potholes"]
