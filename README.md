@@ -18,5 +18,17 @@ The data collected by the sensor can be transmitted to an app via Bluetooth or W
 
 Software:
 
+This app, developed using Kotlin and Java, includes a login/logout page and uses sensor data to mark locations on a map within the app. The data is also saved into a database for real-time user access and future use by the Ministry of Road Transport and Highways (MoRTH). The database is visible to the government, allowing for improved road safety and more efficient road maintenance.
+
+![image](https://user-images.githubusercontent.com/92935580/233886480-41850a24-f5c9-4dce-bbbc-a10d6bfd387c.png)
+
+![image](https://user-images.githubusercontent.com/92935580/233886548-20d33c6b-2db1-4fbc-a597-50c5fed7ec00.png)
+
+![image](https://user-images.githubusercontent.com/92935580/233886594-1e434b61-c027-45be-86ad-37bbfc7a6523.png)
+
+![image](https://user-images.githubusercontent.com/92935580/233886646-4d09b0c4-335a-434f-a3e4-d6980ee1fa27.png)
+
+
+
 
 
