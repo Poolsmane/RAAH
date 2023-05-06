@@ -1,0 +1,29 @@
+
+import processing.serial.*;  
+Serial myPort;  
+String data="" ;
+PFont  myFont;  
+void setup()
+{
+size(1366,900); // size of processing window
+background(0);// setting background color to black
+myPort = new Serial(this, "COM9", 9600);
+myPort.bufferUntil('\n');
+}
+void draw()
+{
+  background(0);
+  textAlign(CENTER);
+  fill(255);
+  text(data,978,400);
+  textSize(50);
+  fill(#4B5DCE);
+  text("              Distance of the pothole from vehicle :          cm",550,400);
+   noFill();
+   stroke(#4B5DCE);
+}
+void serialEvent(Serial myPort)
+{
+ 
+  data=myPort.readStringUntil('\n');
+} 
